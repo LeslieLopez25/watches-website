@@ -214,3 +214,8 @@ button {
     right: 1.25rem;
     cursor: pointer;
 }
+
+/* SHOW MENU */
+.show-menu {
+    right: 0;
+}
