@@ -133,6 +133,18 @@ button {
     text-align: center;
 }
 
+.section__title::before {
+    content: "";
+    position: absolute;
+    top: -1rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 67px;
+    height: 1px;
+    background-color: var(--first-color);
+}
+
 /* HEADER & NAV */
 .header {
     width: 100%;
@@ -396,4 +408,38 @@ button {
 
 .featured__card:hover .featured__price {
     margin-bottom: var(--mb-1-5);
+}
+
+/* STORY */
+.story__container {
+    row-gap: 7.5rem;
+}
+
+.story__title {
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.story__description {
+    margin-bottom: var(--mb-2-5);
+}
+
+.story__images {
+    position: relative;
+}
+
+.story__img,
+.story__square {
+    width: 250px;
+}
+
+.story__square {
+    height: 250px;
+    background-color: var(--first-color);
+}
+
+.story__img {
+    position: absolute;
+    left: 3rem;
+    top: -3rem;
 }
