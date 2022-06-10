@@ -899,3 +899,8 @@ button {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
 }
+
+/* SHOW CART */
+.show-cart {
+    right: 0;
+}
